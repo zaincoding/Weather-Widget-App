@@ -86,7 +86,7 @@ const WeatherWidget = () => {
             <h2 className="text-2xl">{weather.location} </h2>
             </div>
             <div className="flex justify-center">
-            <img src="/images/blue.png" alt="Weather icon" className="w-50 h-50"/>
+            <img src="/images/blue.PNG" alt="Weather icon" className="w-50 h-50"/>
             </div>
             <div className="flex justify-between items-center px-4">
             <p className="text-x1">{weather.temperature}°{weather.unit}</p>
