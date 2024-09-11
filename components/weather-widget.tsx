@@ -7,6 +7,12 @@ import { Input } from "@/components/ui/input";
 import { AlignCenter, Bluetooth } from "lucide-react";
 import Image from 'next/image';
 
+type WeatherData = {
+  temperature: number;
+  description: string;
+  location: string;
+  unit: string;
+};
 
 const WeatherWidget = () => {
   const [location, setLocation] = useState<string>("");
